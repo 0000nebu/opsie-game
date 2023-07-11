@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+</head>
+<body class = "canvas-lives">
+    <div id = "game-over-message">
+        <img class="game-over hidden" src="/assets/img/game-over.png" >
+    </div>
+    <div class = "button-outside">
+    <button id="restartButton" class="hidden">
+        <img src="/assets/img/sprite_reload.png" alt="reload">
+    </button>
+    <button id="highScoresButton"><img src="/assets/img/sprite_scoress.png" alt="score"></button>
+</div>
+    <div id="inicio">
+        <img class="background-inicio" src="/assets/img/intro_sprite.png">
+        
+        <button id="start-btn">
+            <img src="/assets/img/play.png" alt="play">
+        </button>
+  
+    </div>
+     <canvas id= "main-canvas" width="800" height="400">
+  
+   
+    </canvas>
+   
+    <script src="/assets/js/constants.js"></script>
+    <script src="/assets/js/background.js"></script>
+    <script src="/assets/js/coin.js"></script>
+    <script src="/assets/js/cars.js"></script>
+    <script src="/assets/js/player.js"></script>
+    <script src="/assets/js/game.js"></script>
+    <script src="/assets/js/index.js"></script>
+</body>
+</html>
